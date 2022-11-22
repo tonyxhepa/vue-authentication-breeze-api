@@ -113,9 +113,9 @@ const form = ref({
             </router-link>
             <p class="text-base text-[#adadad]">
               Not a member yet?
-              <a href="javascript:void(0)" class="text-primary hover:underline">
+              <router-link to="/register" class="text-primary hover:underline">
                 Sign Up
-              </a>
+              </router-link>
             </p>
           </div>
         </div>

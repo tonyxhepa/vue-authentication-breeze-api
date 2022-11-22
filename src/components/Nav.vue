@@ -4,17 +4,7 @@ import { useAuthStore } from "../stores/auth";
 const authStore = useAuthStore();
 </script>
 <template>
-  <nav
-    class="
-      rounded
-      border-gray-200
-      bg-white
-      px-2
-      py-2.5
-      dark:bg-gray-900
-      sm:px-4
-    "
-  >
+  <nav class="rounded bg-indigo-900 text-white px-2 py-2.5 sm:px-4">
     <div
       class="container mx-auto flex flex-wrap items-center justify-between"
       bis_skin_checked="1"
@@ -65,34 +55,14 @@ const authStore = useAuthStore();
             mt-4
             flex flex-col
             rounded-lg
-            border border-gray-100
-            bg-gray-50
             p-4
-            dark:border-gray-700 dark:bg-gray-800
-            md:mt-0
-            md:flex-row
-            md:space-x-8
-            md:border-0
-            md:bg-white
-            md:text-sm
-            md:font-medium
-            md:dark:bg-gray-900
+            md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium
           "
         >
           <li>
             <router-link
               :to="{ name: 'Home' }"
-              class="
-                block
-                rounded
-                bg-blue-700
-                py-2
-                pr-4
-                pl-3
-                text-white
-                dark:text-white
-                md:bg-transparent md:p-0 md:text-blue-700
-              "
+              class="block rounded py-2 pr-4 pl-3 text-white"
               aria-current="page"
               >Home</router-link
             >
@@ -107,17 +77,8 @@ const authStore = useAuthStore();
                   py-2
                   pr-4
                   pl-3
-                  text-gray-700
-                  hover:bg-gray-100
-                  dark:text-gray-400
-                  dark:hover:bg-gray-700
-                  dark:hover:text-white
-                  md:border-0
-                  md:p-0
-                  md:hover:bg-transparent
-                  md:hover:text-blue-700
-                  md:dark:hover:bg-transparent
-                  md:dark:hover:text-white
+                  text-gray-50
+                  hover:bg-gray-700
                 "
                 >Login</router-link
               >
@@ -131,17 +92,9 @@ const authStore = useAuthStore();
                   py-2
                   pr-4
                   pl-3
-                  text-gray-700
-                  hover:bg-gray-100
-                  dark:text-gray-400
-                  dark:hover:bg-gray-700
-                  dark:hover:text-white
+                  text-gray-50
+                  hover:bg-gray-700
                   md:border-0
-                  md:p-0
-                  md:hover:bg-transparent
-                  md:hover:text-blue-700
-                  md:dark:hover:bg-transparent
-                  md:dark:hover:text-white
                 "
                 >Register</router-link
               >
@@ -156,15 +109,9 @@ const authStore = useAuthStore();
                 py-2
                 pr-4
                 pl-3
-                text-gray-700
-                hover:bg-gray-100
-                dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white
+                text-gray-50
+                hover:bg-gray-700
                 md:border-0
-                md:p-0
-                md:hover:bg-transparent
-                md:hover:text-blue-700
-                md:dark:hover:bg-transparent
-                md:dark:hover:text-white
               "
             >
               Logout

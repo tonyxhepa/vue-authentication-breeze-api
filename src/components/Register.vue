@@ -151,9 +151,9 @@ const form = ref({
               </div>
             </form>
             <p class="text-base text-[#adadad]">
-              <a href="javascript:void(0)" class="text-primary hover:underline">
+              <router-link to="/login" class="text-primary hover:underline">
                 Sign In
-              </a>
+              </router-link>
             </p>
           </div>
         </div>
